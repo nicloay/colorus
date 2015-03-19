@@ -1,0 +1,11 @@
+public enum ToolType{
+	INK,	
+	BRUSH,
+	BRUSH_LARGE,
+	ROLLER,
+	BUCKET,
+	STAMP,
+	HAND,
+	PIPETTE,	
+	NONE
+}

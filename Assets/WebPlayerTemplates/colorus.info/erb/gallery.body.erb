@@ -1,0 +1,272 @@
+<div class="container">
+    <div class="navbar navbar-deffault" role="navigation">
+        <a class="navbar-brand" href="#">Colorus</a>
+        <ul class="nav navbar-nav">
+            <li><a href="index.html#info">О программе</a></li>
+            <li><a href="index.html#contacts">Контакты</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Галерея <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <% @albums.each_with_index do |album, index| %>
+                        <li><a href="#album<%= index %>"><%= album["caption"] %></a></li>
+                    <% end %>
+                </ul>
+            </li>
+
+
+            <li><a href="online.html">Открыть Colorus</a></li>
+        </ul>
+    </div>
+
+    <%
+       i=0
+       pictures=[]
+    %>
+    <% @albums.each_with_index do |album, index| %>
+        <div id="album<%= index %>">
+            <h2 class="text-center"><%= album["caption"] %></h2>
+            <div class="row">
+            <% album["pictures"].each do |picture| %>
+            <div class="col-lg-3 col-md-4 col-sm-6" id="picture<%= picture["name"] %>" data-picid="<%= i %>">
+                <div class="well">
+                    <a class="thumbnail text-center showPic" data-toggle="modal" title="<%= picture["caption"] %>" href="#modalPreview" data-picid="<%= i %>" >
+                        <img class="text-center" src="<%= picture["iconRelativePath"] %>" alt="<%= picture["caption"] %>">
+                    </a>
+
+                    <div class="buttons">
+                        <div class="btn-group">
+                            <button class="btn btn-default btnDraw" data-toggle="tooltip" title="рисовать">
+                                <a href="online.html?picture<%= picture["name"] %>" >
+                                    <span class="glyphicon glyphicon-play"></span>
+                                </a>
+                            </button>
+                            <button class="btn btn-default btnView" data-toggle="tooltip" title="просмотр">
+                                <a class="showPic" data-toggle="modal" href="#modalPreview" data-picid="<%= i %>" >
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                            </button>
+                            <button class="btn btn-default btnLink" data-toggle="tooltip" title="постоянная ссылка">
+                                <a href="<%= picture["pictureRelativePath"] %>">
+                                    <span class="glyphicon glyphicon-link"></span>
+                                </a>
+                            </button>
+                            </button>
+                            <button class="btn btn-default btnDownload" data-toggle="tooltip" title="скачать">
+                                <a href="<%= picture["pictureRelativePath"] %>" download>
+                                    <span class="glyphicon glyphicon-floppy-disk"></span>
+                                </a>
+                            </button>
+                            <button class="btn btn-default btnPrint" data-imgpath="<%= picture["pictureRelativePath"] %>" data-toggle="tooltip" title="распечатать">
+                                <span class="glyphicon glyphicon-print"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% pictures.insert(i,picture) %>
+            <% i=i+1 %>
+            <% end %>
+
+        </div>
+        </div>
+    <% end %>
+
+
+    <div class="modal fade" id="modalPreview" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div-->
+                <div class="modal-body">
+                    <div id="img-carousel" class="carousel slide">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <% pictures.each_with_index do |picture, index| %>
+                                <div id="modalPicId<%= index %>" data-picid="<%= index %>" class="item<%= (index==0) ? ' active' : '' %>" data-name="picture<%= picture["name"] %>">
+                                    <img class="carousel-image" data-imgsrc=   "<%= picture["pictureRelativePath"] %>" alt="<%= picture["caption"] %>">
+                                    <div class="carousel-caption">
+                                        <h3><%= picture["caption"] %></h3>
+                                    </div>
+                                </div>
+
+                            <% end %>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#img-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#img-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default modalPlay">
+                        <span class="glyphicon glyphicon-play"></span> Рисовать
+                    </button>
+
+                    <button type="button" class="btn btn-default modalDownload">
+                        <a id="modalBtnDownload" href="#" download>
+                            <span class="glyphicon glyphicon-floppy-disk"></span> Скачать
+                        </a>
+                    </button>
+
+                    <button type="button" class="btn btn-default modalPrint">
+                        <span class="glyphicon glyphicon-print"></span> Печать
+                    </button>
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Закрыть
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+<footer>
+    <p class="pull-right">
+        <a href="#">наверх</a>
+    </p>
+    <p>
+        © 2013 Colorus.info
+    </p>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../Assets/WebPlayerTemplates/colorus.info/js/jquery-1.7.2.min.js"><\/script>')</script>
+<!-- Bootstrap jQuery plugins compiled and minified -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script>
+
+    function printImage(image)
+    {
+        var printWindow = window.open('', 'Print Window','height=420,width=594');
+        printWindow.document.write('<html><head><script>function onLoadImage()\{window.print();window.close()\} <\/script>    <title>Print Window</title>');
+        printWindow.document.write('<style type="text/css" media="print">@page \{ size: landscape; margin: 0cm \}</style>');
+        printWindow.document.write('</head><body ><img src=\'');
+        printWindow.document.write(image);
+        printWindow.document.write('\'  onload="onLoadImage()" /></body></html>');
+        printWindow.document.close();
+        //printWindow.print();
+        //printWindow.close();
+    }
+
+    function eventFire(el, etype){
+        if (el.fireEvent) {
+            (el.fireEvent('on' + etype));
+        } else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    }
+
+    function lazyLoadPictures(id){
+        var $nextImage;
+        var $previousImage;
+        if (id==0){
+            $previousImage = $('#img-carousel .carousel-inner .item:last-child').find('img');
+            $nextImage = $('.active.item', $('.carousel')).next('.item').find('img');
+        } else if (id==<%= (pictures.length-1) %>) {
+            $nextImage = $('#img-carousel .carousel-inner .item:first-child').find('img');
+            $previousImage = $('.active.item', $('.carousel')).prev('.item').find('img');
+        } else {
+            $nextImage = $('.active.item', $('.carousel')).next('.item').find('img');
+            $previousImage = $('.active.item', $('.carousel')).prev('.item').find('img');
+        }
+        if ($nextImage.attr('src') == undefined){
+            $nextImage.attr('src', $nextImage.data('imgsrc'));
+        }
+        if ($previousImage.attr('src') == undefined){
+            $previousImage.attr('src', $previousImage.data('imgsrc'));
+        }
+
+        changeModalBtnDownload(id);
+        updateHash($("#modalPicId"+id).data("name"));
+    }
+
+    function changeModalBtnDownload(id){
+        var path = getCarouselActiveItemImgPath();
+        $("#modalBtnDownload").attr("href",path);
+    }
+
+    function getCarouselActiveItemId(){
+        return $('.active.item').data('picid');
+    }
+
+    function getCarouselActiveItemImgPath(){
+        return $("#modalPicId"+getCarouselActiveItemId()+" .carousel-image").data("imgsrc");
+    }
+
+    function updateHash(hash){
+        var scrollmem = $('body').scrollTop()
+        window.location.hash = hash;
+        $('html,body').scrollTop(scrollmem)
+    }
+
+    function handleHashOnLoad(){
+        var hash = window.location.hash;
+        if (hash.indexOf("#picture") == 0 ){
+            var name = hash.substring(8);
+            var id = $("#picture"+name).data("picid");
+            console.log("hash id = "+id);
+            $("#modalPreview").modal("show");
+            showModalWithId(id);
+        }
+    }
+
+
+    function showModalWithId(id){
+        console.log("trying to show pic with id = "+id);
+        var $image = $('#modalPicId'+id+" img");
+        if ($image.attr('src') == undefined){
+            $image.attr('src', $image.data('imgsrc'));
+        }
+        $('.carousel').carousel('cycle');
+        $('.carousel').carousel(id);
+        lazyLoadPictures(id);
+    }
+
+    $(document).ready(function(){
+        handleHashOnLoad();
+
+        $('.carousel').carousel({
+            interval: 10000
+        });
+        $('.carousel').carousel('pause');
+
+        $('.carousel').on("slid", function() {
+           lazyLoadPictures($('.active.item').data("picid"));
+        });
+
+        $('.btnPrint').click(function(){
+            printImage($(this).data("imgpath"));
+        });
+
+        $('#modalPreview').on('hidden.bs.modal', function () {
+            $('.carousel').carousel('pause');
+        })
+
+        $(".showPic").click(function () {
+            var pictureId = $(this).data('picid');
+            showModalWithId(pictureId);
+        });
+
+        $(".modalPrint").click(function(){
+            printImage(getCarouselActiveItemImgPath());
+         });
+
+        $(".modalPlay").click(function(){
+            var name =   $("#modalPicId"+getCarouselActiveItemId()).data("name");
+            document.location.href = "online.html?"+name;
+        });
+    });
+
+
+
+</script>
+</div>

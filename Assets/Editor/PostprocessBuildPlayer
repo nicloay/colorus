@@ -1,0 +1,57 @@
+#!/bin/bash
+
+installPath=$1;
+# The type of player built:
+# "dashboard", "standaloneWin32", "standaloneOSXIntel", "standaloneOSXPPC", "standaloneOSXUniversal", "webplayer"
+target=$2;
+# What optimizations are applied. At the moment either "" or "strip" when Strip debug symbols is selected.
+optimization=$3;
+# The name of the company set in the project settings
+companyName=$4;
+# The name of the product set in the project settings
+productName=$5;
+# The default screen width of the player.
+width=$6;
+# The default screen height of the player
+height=$7;
+
+echo "===+">~/unity.params
+
+echo "$@" #>>~/unity.params
+echo "===+">>~/unity.params
+env >> ~/unity.params
+workingDir=$(pwd) #>>~/unity.params
+
+FILES="online vk fb mru";
+INDEX="index.ru.html";
+ALBUMS="Tales Songs Cars"
+
+ruby="/Users/nicloay/.rvm/rubies/ruby-2.0.0-p0/bin/ruby"
+ruby -v >> ~/unity.params
+$ruby -v >> ~/unity.params
+
+if [ "$target" == "webplayer" ];
+then
+    cd "$installPath";
+
+    buildFileName=$(ls|grep 'unity3d$');
+    cleanName=$(echo $buildFileName|sed 's/.unity3d//');
+    htmlIndexFile=$cleanName".html";
+
+    for file in $FILES;do
+        cp $htmlIndexFile $file.html;
+        for file2 in $FILES;do
+            if [ "$file" != "$file2" ]; then
+                sed -i "" '/#if '$file2'/,/#endif/d' $file.html;
+            fi
+        done
+        sed -i "" 's/^#.*$//g; s/^ +//; s/ +$//; /^$/d' $file.html;
+    done
+    echo $ruby  "$workingDir/Assets/Editor/RubyPostPorcess.rb" "$workingDir" "$installPath" >> ~/unity.params
+    $ruby  -E utf-8 "$workingDir/Assets/Editor/RubyPostPorcess.rb" "$workingDir" "$installPath" &> ~/unity.params
+
+    rm -Rf "$installPath/erb"
+    rm $htmlIndexFile;
+    mv $INDEX index.html;
+    find . -name '*.meta' -exec rm -rf {} \;
+fi

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268ac00793b574c4bb474c3129bc9407, type: 3}
+  m_Name: buildConfigs
+  m_EditorClassIdentifier: 
+  configs:
+  - description: iOS Russian FULL
+    sceneName: Assets/main.unity
+    sceneId: 1
+    language: 30
+    stampList: {fileID: 11400000, guid: a69d5efb0df05439fb4738e160cc6f0e, type: 2}
+    albums: {fileID: 11400000, guid: 7f6760ff77d7744a9a553906d19f921a, type: 2}
+    buildDestination: /Users/nicloay/Desktop/razukrashka/full_ru
+    bundleId: info.colorus.rusFull
+  - description: iOS Russian LITE
+    sceneName: Assets/main.unity
+    sceneId: 1
+    language: 30
+    stampList: {fileID: 11400000, guid: f3b7f5f14a6204ee8b43c8f6fdcfa1ea, type: 2}
+    albums: {fileID: 11400000, guid: 1b6984a7057fb4c25b6f0c15deb2944f, type: 2}
+    buildDestination: /Users/nicloay/Desktop/razukrashka/lite_ru
+    bundleId: info.colorus.rusLite
+  - description: IOS English LITE
+    sceneName: Assets/main.unity
+    sceneId: 1
+    language: 10
+    stampList: {fileID: 11400000, guid: f3b7f5f14a6204ee8b43c8f6fdcfa1ea, type: 2}
+    albums: {fileID: 11400000, guid: 1b6984a7057fb4c25b6f0c15deb2944f, type: 2}
+    buildDestination: /Users/nicloay/Desktop/razukrashka/lite_en
+    bundleId: info.colorus.enLite

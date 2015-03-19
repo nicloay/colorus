@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0faa3a78ae84b9d8d2aacf5165ac5a, type: 3}
+  m_Name: StampList_Lite
+  m_EditorClassIdentifier: 
+  stampList:
+  - iconPath: stamp001.icon
+    stampPath: stamp001
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp101.icon
+    stampPath: stamp101
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp102.icon
+    stampPath: stamp102
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp105.icon
+    stampPath: stamp105
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp106.icon
+    stampPath: stamp106
+    sound: {fileID: 8300000, guid: 5e9ab67cf4c5a438b91899032fa88950, type: 3}
+  - iconPath: stamp107.icon
+    stampPath: stamp107
+    sound: {fileID: 8300000, guid: 04a184d6659e04e25827e78c32561541, type: 3}
+  - iconPath: stamp401.icon
+    stampPath: stamp401
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp402.icon
+    stampPath: stamp402
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp429.icon
+    stampPath: stamp429
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp430.icon
+    stampPath: stamp430
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp431.icon
+    stampPath: stamp431
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp440.icon
+    stampPath: stamp440
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp442.icon
+    stampPath: stamp442
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp445.icon
+    stampPath: stamp445
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp447.icon
+    stampPath: stamp447
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp484.icon
+    stampPath: stamp484
+    sound: {fileID: 8300000, guid: ceabfe52f992b449485f030af3113ff1, type: 3}
+  - iconPath: stamp485.icon
+    stampPath: stamp485
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp486.icon
+    stampPath: stamp486
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp501.icon
+    stampPath: stamp501
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp552.icon
+    stampPath: stamp552
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}

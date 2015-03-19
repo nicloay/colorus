@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 38457565fb39744679072d70ecb0b5cd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: snowDrift1
+    21300002: snowFlake1
+    21300004: snowFlake4
+    21300006: snowDrift2
+    21300008: snowFlake2
+    21300010: snowDrift3
+    21300012: snowFlake3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: snowDrift1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 399
+        height: 81
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowFlake1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 180
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowFlake4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowDrift2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 357
+        height: 78
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowFlake2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 111
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowDrift3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 282
+        height: 84
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snowFlake3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 29
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

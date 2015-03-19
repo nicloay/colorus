@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2153ab3b19629437b8f923d2aab5dde7, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language: 10
+  entries:
+  - key: morozhenka
+    value: IceCream
+  - key: dom
+    value: House
+  - key: Vodyanoy
+    value: Vodyanoy
+  - key: cvetochek
+    value: Flower
+  - key: baraban
+    value: Drum
+  - key: palitra
+    value: Palette
+  - key: Kyzma
+    value: Household Deity Kuzma
+  - key: ula
+    value: Peg-Top
+  - key: krest
+    value: Cross
+  - key: kolyaska
+    value: Stroller
+  - key: vorobey
+    value: Sparrow
+  - key: quad
+    value: ATV
+  - key: rybki
+    value: Fishes
+  - key: mebel
+    value: Table and Chair
+  - key: shariki
+    value: Baloons
+  - key: crane
+    value: "\u0421rane"
+  - key: petushok
+    value: Golden Cockerel
+  - key: bychok
+    value: Bull-Calf
+  - key: cilindr
+    value: Cylinder
+  - key: kuznechik
+    value: Grasshopper
+  - key: listochki
+    value: Leaves
+  - key: piramida
+    value: Pyramid
+  - key: kub
+    value: Cube
+  - key: myachiki
+    value: Balls
+  - key: hudozhnik
+    value: Painter
+  - key: list
+    value: Leaf
+  - key: trapeciya
+    value: Trapezoid
+  - key: tigryonok
+    value: Triangle
+  - key: elochka
+    value: Fir-Tree
+  - key: Dobrynya
+    value: 'Dobrynya Nikitich '
+  - key: utochka
+    value: Duck
+  - key: vederko
+    value: Bucket and Shovel
+  - key: vertolyetik
+    value: Helicopter
+  - key: ptichka
+    value: Bird
+  - key: Teremok
+    value: Mansion
+  - key: lvenok
+    value: Lionet
+  - key: koza
+    value: Goat
+  - key: vodovoz
+    value: Street Sprinkler
+  - key: zont
+    value: Umbrella
+  - key: pole
+    value: Tractor in Field
+  - key: tractor
+    value: Tractor
+  - key: racingCar
+    value: Racing Car
+  - key: Prekrasnaya
+    value: Vasilisa the Beautiful
+  - key: lisyonok
+    value: Pup
+  - key: sobachka
+    value: Puppy
+  - key: Izbushka
+    value: Hut on Chicken Legs
+  - key: zapyataya
+    value: Kids
+  - key: enot
+    value: Raccoon
+  - key: dumpTruck2
+    value: Cartoon Dumptrack
+  - key: morkovka
+    value: Carrot
+  - key: petushok2
+    value: Cockerel
+  - key: bobr
+    value: Beaver
+  - key: Sivka
+    value: Sivka-Bourka
+  - key: loshadka
+    value: Toy Horse
+  - key: elki
+    value: Trees
+  - key: uronili.mishku
+    value: Teddy Bear
+  - key: volchonok
+    value: Wolfling
+  - key: zayka
+    value: Bunny
+  - key: podlodka
+    value: Submarine
+  - key: utyata
+    value: Chicken Dance
+  - key: kaplya
+    value: Drop
+  - key: loshadki
+    value: Cloud Horses
+  - key: testSheetObject
+    value: testSheetObject
+  - key: zaichonok
+    value: Bunny and Carrot
+  - key: zhyraf
+    value: Giraffe
+  - key: korabliki
+    value: Boats
+  - key: motocicle
+    value: Motorcycle
+  - key: kolybelnaya
+    value: Polar Bear
+  - key: ovechka
+    value: Lamb
+  - key: mixer
+    value: 'Concrete Mixer
+
+      concrete mixer
+
+'
+  - key: Konyok
+    value: Humpbacked Horse
+  - key: kubiki
+    value: Cubes
+  - key: Volk
+    value: Ivan Tsarevich
+  - key: solncelik
+    value: Sun
+  - key: dolka
+    value: Orange Slice
+  - key: yaico
+    value: Egg
+  - key: soroka
+    value: Magpie
+  - key: mishutki
+    value: Teddy Bears
+  - key: korabl
+    value: Flying Ship
+  - key: raduga
+    value: Rainbow
+  - key: Kolobok
+    value: Kolobok
+  - key: jeep
+    value: Jeep
+  - key: emergency
+    value: Emergency
+  - key: mishutka
+    value: Bruin
+  - key: oval
+    value: Oval
+  - key: delfin
+    value: Dolphin
+  - key: Kot
+    value: Learned Cat
+  - key: cabriolet
+    value: Cabriolet
+  - key: kisa
+    value: Kitten
+  - key: detki
+    value: Kids
+  - key: treugolnik
+    value: Triangle
+  - key: truck3
+    value: Truck
+  - key: parovozik
+    value: Locomotive
+  - key: syr
+    value: Mouse and Cheese
+  - key: parallelogramm
+    value: Parallelogram
+  - key: chaepitie
+    value: Tea Party
+  - key: frukty
+    value: Apple Pear and Plum
+  - key: exkovator
+    value: Excovator
+  - key: f1
+    value: Formula 1
+  - key: korovka
+    value: Cow
+  - key: sova
+    value: Owl
+  - key: slonik
+    value: Elephant
+  - key: fireEngine
+    value: Fire Engine
+  - key: myshonok
+    value: Mousy
+  - key: Leshij
+    value: Leshy
+  - key: shestiugolnik
+    value: Hexagon
+  - key: mishka
+    value: Bear
+  - key: Yaga
+    value: Baba Yaga
+  - key: svinka
+    value: Pork
+  - key: krug
+    value: Circle
+  - key: dudka
+    value: Trumpet
+  - key: Sirin
+    value: Sirin
+  - key: Chudoudo
+    value: Sea Monster Chudoydo
+  - key: mesyac
+    value: Moon
+  - key: mama
+    value: Mom
+  - key: klubnichka
+    value: Strawberries
+  - key: vagon
+    value: Steam Train
+  - key: piramidka
+    value: Roly-Poly
+  - key: dozhdik
+    value: Happy Rain
+  - key: Zharptica
+    value: Firebird
+  - key: truck
+    value: Cartoon Truck
+  - key: pryamougolnik
+    value: Rectangle
+  - key: zima
+    value: Winter
+  - key: tank
+    value: Tank
+  - key: karandashi
+    value: Pencils
+  - key: knigi
+    value: Books
+  - key: car
+    value: Car
+  - key: kvadrat
+    value: Square
+  - key: roller
+    value: Paver Roller
+  - key: gusi
+    value: Cheerful Geese
+  - key: Muromets
+    value: Ilya Muromets
+  - key: Gorynych
+    value: Slavic dragon
+  - key: shar
+    value: Globe
+  - key: dumpTruck
+    value: Dumptrack
+  - key: cherepashka
+    value: Turtle
+  - key: doroga
+    value: Cars
+  - key: raketa
+    value: Rocket
+  - key: kacheli
+    value: Boy
+  - key: mamontenok
+    value: Mammoth
+  - key: derevo
+    value: Tree
+  - key: babochki
+    value: Butterfly
+  - key: ladybag
+    value: Ladybag
+  - key: Lyagushka
+    value: Frog Princess
+  - key: samolyetiki
+    value: Airplanes
+  - key: chenok
+    value: Eating Puppy
+  - key: samokat
+    value: Scooter and Bicycle
+  - key: bus
+    value: Bus
+  - key: lyaguhi
+    value: Frogs
+  - key: police
+    value: Police car
+  - key: gribok
+    value: Mushroom
+  - key: BlankPlane
+    value: Blank Plane
+  - key: cyplyata
+    value: Poults
+  - key: briliant
+    value: Diamond
+  - key: Lebed
+    value: Swan Princess
+  - key: buldozer
+    value: Buldozer
+  - key: romb
+    value: Rhombus
+  - key: bike
+    value: Bike
+  - key: matreshki
+    value: Matryoshka
+  - key: DedDaBaba
+    value: Old Man and Old Whoman
+  - key: vLesy
+    value: Tree
+  - key: Solnce
+    value: Son and Moon
+  - key: Solovey
+    value: Nightingale the Robber
+  - key: monster
+    value: Monstertruck
+  - key: solnyshko
+    value: Sun in Clouds
+  - key: zhuk
+    value: Bug
+  - key: kozlik
+    value: Goat
+  - key: zvezda
+    value: Star
+  - key: pyatiugolnik
+    value: Pentagon
+  - key: Shapes
+    value: Shapes
+  - key: Songs
+    value: Songs
+  - key: Tales
+    value: Tales
+  - key: Babies
+    value: Babies
+  - key: Cars
+    value: Cars
+  - key: Animals
+    value: Animals
+  - key: select color
+    value: Select Color
+  - key: selectColor
+    value: Select Color
+  - key: select stamp
+    value: Select Stamp
+  - key: Select Picture
+    value: Select Picture
+  - key: Info
+    value: Info
+  - key: Sound
+    value: Sound
+  - key: number_0
+    value: digit 0
+  - key: number_1
+    value: digit 1
+  - key: number_3
+    value: digit 3
+  - key: number_2
+    value: digit 2
+  - key: number_4
+    value: digit 4
+  - key: number_5
+    value: digit 5
+  - key: number_6
+    value: digit 6
+  - key: number_7
+    value: digit 7
+  - key: number_8
+    value: digit 8
+  - key: number_9
+    value: digit 9
+  - key: number_10
+    value: number 10
+  - key: number_all
+    value: all numbers
+  - key: numbers
+    value: Digits
+  - key: lvenok_animal
+    value: Lion
+  - key: help
+    value: Help
+  - key: help_main
+    value: Main
+  - key: help_main_menu
+    value: Main Panel
+  - key: help_main_panel
+    value: Main Panel
+  - key: help_color_panel
+    value: Color Panel
+  - key: help_tool_panel
+    value: Tool Panel
+  - key: help_active_tool
+    value: Active Tool
+  - key: help_select_picture
+    value: Select Picture
+  - key: help_sound_settings
+    value: Sound Settings
+  - key: help_color_picker
+    value: Color Picker
+  - key: help_select_stamp
+    value: Select Stamp
+  - key: help_credits
+    value: Credits
+  - key: credit_painter
+    value: 'Painter
+
+      Ekaterina Maximova'
+  - key: credit_programming
+    value: 'Programming
+
+      Nikolay Kandalintsev'
+  - key: credit_sound
+    value: 'Sound
+
+      Mark Braga'
+  - key: credit_mail
+    value: 'Our Mail
+
+      colorus.app@gmail.com'
+  - key: credit_twitter
+    value: 'Twitter
+
+      colorusapp'
+  - key: credit_url
+    value: 'Website
+
+      http://colorus.info'
+  - key: help_scroll_items
+    value: Scroll Items
+  - key: help_draw_one_winger
+    value: Draw One Finger
+  - key: help_zoom_draw_area
+    value: Zoom canvas
+  - key: help_move_zoomed_area
+    value: Move zoomed canvas
+  - key: help_undo_button
+    value: Undo
+  - key: help_redo_button
+    value: Redo
+  - key: helpr_refresh_button
+    value: Clear Canvas
+  - key: help_refresh_button
+    value: Clear Canvas
+  - key: help_save_button
+    value: 'Save picture to album
+
+      (Standard ablum of your device)'
+  - key: help_select_pic_button
+    value: Open New Picture
+  - key: help_help_button
+    value: Show Help Window
+  - key: help_color_history
+    value: Color history
+  - key: help_random_color
+    value: 'Actual Color
+
+      In case if rainbow button with color is big, random colors occurs'
+  - key: help_predefined_colors
+    value: Predefined colors
+  - key: help_palette_button
+    value: ColorPicker Button
+  - key: help_tool_feather
+    value: 'Feather, The thinnest line '
+  - key: help_tool_roller
+    value: Roller - wide line
+  - key: help_tool_brush
+    value: Brushg - average size line
+  - key: help_tool_big_brush
+    value: Big Brush - thick line
+  - key: help_tool_bucket
+    value: Bucket - fill region
+  - key: help_tool_stamp
+    value: Stamp
+  - key: help_tool_zoomin
+    value: Zoom In - you can use swipe instead of this
+  - key: help_tool_zoomout
+    value: Zoom Out - you can use swipe instead of this
+  - key: help_tool_hand
+    value: 'Hand - move zoomed canvas
+
+      you can use swipe instead of this'
+  - key: help_tool_pipette
+    value: Pipette - select color from canvas

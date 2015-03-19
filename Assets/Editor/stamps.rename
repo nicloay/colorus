@@ -1,0 +1,10 @@
+#!/bin/sh
+stampFolder='../Assets/Textures/stamps';
+cd $stampFolder
+for file in $(find . -type file  -name 'stampIcon[0-9]*.psd');
+do
+    echo $file
+   num=$(echo  ${file//[!0-9]})
+   num=$(printf %03d%s ${num%*} ${a##*})
+   mv $file "stamp$num.icon.psd"
+done

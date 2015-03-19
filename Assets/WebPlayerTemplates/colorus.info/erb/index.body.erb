@@ -1,0 +1,318 @@
+
+<div class="container">
+<div class="navbar navbar-deffault" role="navigation">
+    <a class="navbar-brand" href="#">Colorus</a>
+    <ul class="nav navbar-nav">
+        <li><a href="#info">О программе</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Галерея <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <% @albums.each_with_index do |album, index| %>
+                    <li><a href="gallery.html#album<%= index %>"><%= album["caption"] %></a></li>
+                <% end %>
+            </ul>
+        </li>
+
+
+        <li><a href="online.html">Открыть Colorus</a></li>
+    </ul>
+</div>
+
+
+<div id="carousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="active item">
+            <img src="img/p0.png" alt="colorus - детская раскраска онлайн">
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>ColoRus</h1>
+                        <h3>детская раскраска онлайн</h3>
+                        <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/p1.png" alt="colorus - рисуй с чистого листа">
+            <div class="carousel-caption">
+                <h1>ColoRus</h1>
+                    <h3>Рисуй с чистого листа</h3>
+                    <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/p2.png" alt="colorus - более 100 штампов">
+            <div class="carousel-caption">
+                <h1>ColoRus</h1>
+                    <h3>Используй более 100 штампов</h3>
+                    <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/p3.png" alt="colorus - герои русских сказок">
+            <div class="carousel-caption">
+                <h1>ColoRus</h1>
+                    <h3>Герои русских сказок</h3>
+                    <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/p4.png" alt="colorus - стишки песенки и потешки">
+            <div class="carousel-caption">
+                <h1>ColoRus</h1>
+                    <h3>Стишки, Песенки и Потешки</h3>
+                    <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+<div class="text-center">
+    <h2>COLORUS <span class="text-muted">детская раскраска онлайн</span></h2>
+    <p>Рисуй прямо в браузере, раскрашивай интересные картинки </p>
+    <a href="online.html" class="btn btn-primary">Рисовать онлайн!</a>
+</div>
+<div class="row">
+    <div class="col-lg-2 col-lg-offset-3 col-sm-4">
+        <p class="text-center">
+        <div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://colorus.info" data-via="ColoRusApp">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        </p>
+    </div>
+    <div class="col-lg-2 col-sm-4">
+        <p class="text-center">
+        <div id="vk_like"></div>
+        <script type="text/javascript">
+            VK.Widgets.Like("vk_like", {type: "button"});
+        </script>
+        </p>
+    </div>
+    <div class="lg-lg-2 col-sm-4">
+        <p class="text-center">
+        <div class="fb-like" data-href="http://colorus.info" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-sm-4">
+        <div class="panel">
+            <div class="panel-heading">Марья Соловьева</div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-6">
+                    <img src="img/maria.png" class="img-rounded" alt="colorus - мария">
+                </div>
+                <div class="col-lg-12 col-sm-12 col-6 feedback">
+                    Необычное приложение. Порадовала возможность практически неограниченного творчества – от раскраски до свободного рисования. Мелкий братик  в восторге.
+                </div>
+            </div>
+            <div class="panel-footer">г. Череповец</div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+        <div class="panel">
+            <div class="panel-heading">Татьяна Геннадьевна</div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-6">
+                    <img src="img/tatyana.png" class="img-rounded" alt="colorus - татьяна">
+                </div>
+                <div class="col-lg-12 col-sm-12 col-6 feedback">
+                    На днях начли с внуком рисовать. Понравилось изобилие картинок из русских сказок. Ребенок рисует  и слушает  мои истории про персонажей.
+                </div>
+            </div>
+            <div class="panel-footer">Первоуральск, Свердловская область</div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+        <div class="panel">
+            <div class="panel-heading">Артем</div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-6">
+                    <img src="img/artem.png" class="img-rounded" alt="colorus - артем">
+                </div>
+                <div class="col-lg-12 col-sm-12 col-6 feedback">
+                    Дашка еще маленькая. Сидит на коленках. Рисуем вместе. Не все сразу получается. Но интерес к раскраске у ребенка заметный. Тянет больше раскрашивать сказочных животных.  Не хватает музыки к картинкам.
+                </div>
+            </div>
+            <div class="panel-footer">г. Киров</div>
+        </div>
+    </div>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <div class="flex-video widescreen">
+            <iframe src="//player.vimeo.com/video/69447756" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+    </a>
+</div>
+
+<div class="row"  id="info">
+    <div class="col-lg-4 col-sm-6">
+        <img class="img-responsive" src="img/512icon2.png" alt="colorus - избушка">
+    </div>
+    <div class="col-lg-8 col-sm-6">
+        <h2>ColoRus – это уникальная электронная раскраска для всей семи – <span class="text-muted"> для детей и взрослых.</span></h2>
+        <p class="lead">Легкость в обращении, множество вариантов цветов и оттенков, различные инструменты для рисования позволят воплотить самые удивительные фантазии, которые может позволить on-line раскраска.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-lg-push-8 col-sm-6 col-sm-push-6">
+        <img class="img-responsive" src="img/512icon1.png" alt="colorus - коза">
+    </div>
+    <div class="col-lg-8 col-lg-pull-4 col-sm-6 col-sm-pull-6">
+        <h2>Герои <span class="text-muted"> русских сказок</span></h2>
+        <p class="lead">Илья Муромец, Змей Горыныч, Василиса Прекрасная, Баба Яга, Леший, Кот ученый, Конек-горбунок и другие персонажи погрузят вас в удивительную, полную ярких цветов, страну былин и русских народных сказок.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-sm-6">
+        <img class="img-responsive" src="img/512icon3.png" alt="colorus - домик">
+    </div>
+    <div class="col-lg-8 col-sm-6">
+        <h2>ColoRus</h2>
+        <p class="lead">Дает Вам возможность не только раскрашивать картинки, но и рисовать свой собственный цветной мир, придумывать новых героев.
+            Совсем скоро он-лайн раскраска ColoRus станет доступна для планшетов и других мобильных гаджетов. Следите за обновлением.</p>
+    </div>
+</div>
+
+
+<h2>Какова же польза от раскраски? Он-лайн раскраска ColoRus – это верный помощник в развитии ребенка</h2>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="panel">
+            <strong>Ребенок</strong> учится различать цвета и оттенки, сочетать цвета между собой.
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            Ребенок <strong>узнает</strong> о русских сказках и их героях.
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            Развиваются творческие <strong>способности</strong>. Рисунок, равно как и раскраска стимулирует творческое восприятие окружающей среды.
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="panel">
+            Стимулируются умственные процессы.   Ребенок <strong>фантазирует</strong>, воображает и создает свой собственный мир.</p>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            Развиваются терпение и <strong>усидчивость</strong>.
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            Развиваются <strong>координация</strong> движения и моторика рук.
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-lg-push-8 col-sm-6 col-sm-push-6">
+        <img class="img-responsive" src="img/512icon5.png" alt="colorus - кузьма">
+    </div>
+    <div class="col-lg-8 col-lg-pull-4 col-sm-6 col-sm-pull-6">
+        <h2 >И, наконец, У Вас появляется значительно больше, так недостающего свободного времени, ведь малыш занят любимым и полезным делом.</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-sm-6">
+        <img class="img-responsive" src="img/512icon4.png" alt="colorus - петя петя петушок">
+    </div>
+    <div class="col-lg-8 col-sm-6" >
+        <h2>Смотрите, разукрашивайте и наслаждайтесь удивительным миром для всей семьи  ColoRus!</h2>
+    </div>
+</div>
+
+
+
+<div class="row" id="contacts">
+    <div class="col-lg-6 col-lg-offset-6">
+        <h2 class="text-center">Контакты</h2>
+    </div>
+    </row>
+    <row>
+        <div class="col-lg-3 col-lg-offset-6">
+            <p>
+                <img src="img/icons/shadow/mail.png" alt="почта"/>
+                <a href="mailto:colorus.app@gmail.com">colorus.app@gmail.com</a>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p>
+                <img src="img/icons/shadow/vk_2.png" alt="вконтакте"/>
+                <a href="//vk.com/colorus_app">VKontankte группа</a>
+            </p>
+        </div>
+    </row>
+    <row>
+        <div class="col-lg-3 col-lg-offset-6">
+            <p>
+                <img src="img/icons/shadow/twitter.png" alt="твиттер"/>
+                <a href="//twitter.com/colorusapp">Наш twitter</a>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p>
+                <img src="img/icons/shadow/facebook.png" alt="фейсбук"/>
+                <a href="//www.facebook.com/colorus.page">Страничка на FaceBook</a>
+            </p>
+        </div>
+    </row>
+</div>
+
+<footer>
+    <p class="pull-right">
+        <a href="#">наверх</a>
+    </p>
+    <p>
+        © 2013 Colorus.info
+    </p>
+</footer>
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../Assets/WebPlayerTemplates/colorus.info/js/jquery-1.7.2.min.js"><\/script>')</script>
+<!-- Bootstrap jQuery plugins compiled and minified -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            interval: 4000
+        });
+    });
+
+    function updateUnity(){
+
+
+    }
+
+</script>
+</div>

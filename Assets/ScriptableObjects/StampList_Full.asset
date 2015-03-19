@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0faa3a78ae84b9d8d2aacf5165ac5a, type: 3}
+  m_Name: StampList_Full
+  m_EditorClassIdentifier: 
+  stampList:
+  - iconPath: stamp001.icon
+    stampPath: stamp001
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp002.icon
+    stampPath: stamp002
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp003.icon
+    stampPath: stamp003
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp004.icon
+    stampPath: stamp004
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp005.icon
+    stampPath: stamp005
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp006.icon
+    stampPath: stamp006
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp007.icon
+    stampPath: stamp007
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp008.icon
+    stampPath: stamp008
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp009.icon
+    stampPath: stamp009
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp021.icon
+    stampPath: stamp021
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp022.icon
+    stampPath: stamp022
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp023.icon
+    stampPath: stamp023
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp024.icon
+    stampPath: stamp024
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp025.icon
+    stampPath: stamp025
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp026.icon
+    stampPath: stamp026
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp027.icon
+    stampPath: stamp027
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp028.icon
+    stampPath: stamp028
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp031.icon
+    stampPath: stamp031
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp032.icon
+    stampPath: stamp032
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp033.icon
+    stampPath: stamp033
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp034.icon
+    stampPath: stamp034
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp051.icon
+    stampPath: stamp051
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp052.icon
+    stampPath: stamp052
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp061.icon
+    stampPath: stamp061
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp062.icon
+    stampPath: stamp062
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp081.icon
+    stampPath: stamp081
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp101.icon
+    stampPath: stamp101
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp102.icon
+    stampPath: stamp102
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp103.icon
+    stampPath: stamp103
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp104.icon
+    stampPath: stamp104
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp105.icon
+    stampPath: stamp105
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp106.icon
+    stampPath: stamp106
+    sound: {fileID: 8300000, guid: 5e9ab67cf4c5a438b91899032fa88950, type: 3}
+  - iconPath: stamp107.icon
+    stampPath: stamp107
+    sound: {fileID: 8300000, guid: 04a184d6659e04e25827e78c32561541, type: 3}
+  - iconPath: stamp108.icon
+    stampPath: stamp108
+    sound: {fileID: 8300000, guid: 98bdd267fad7b4eb4b1d664c6e6894b4, type: 3}
+  - iconPath: stamp109.icon
+    stampPath: stamp109
+    sound: {fileID: 8300000, guid: 98bdd267fad7b4eb4b1d664c6e6894b4, type: 3}
+  - iconPath: stamp110.icon
+    stampPath: stamp110
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp111.icon
+    stampPath: stamp111
+    sound: {fileID: 8300000, guid: c10e8d6686f734839bb11626f74ca515, type: 3}
+  - iconPath: stamp201.icon
+    stampPath: stamp201
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp202.icon
+    stampPath: stamp202
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp203.icon
+    stampPath: stamp203
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp205.icon
+    stampPath: stamp205
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp206.icon
+    stampPath: stamp206
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp207.icon
+    stampPath: stamp207
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp208.icon
+    stampPath: stamp208
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp209.icon
+    stampPath: stamp209
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp210.icon
+    stampPath: stamp210
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp211.icon
+    stampPath: stamp211
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp251.icon
+    stampPath: stamp251
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp252.icon
+    stampPath: stamp252
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp253.icon
+    stampPath: stamp253
+    sound: {fileID: 8300000, guid: 1352f1429a2c2404e98c8901c05bdc3d, type: 3}
+  - iconPath: stamp254.icon
+    stampPath: stamp254
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp301.icon
+    stampPath: stamp301
+    sound: {fileID: 8300000, guid: d5c6c4a76e6eb4d66abae088e749c109, type: 3}
+  - iconPath: stamp302.icon
+    stampPath: stamp302
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp303.icon
+    stampPath: stamp303
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp304.icon
+    stampPath: stamp304
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp305.icon
+    stampPath: stamp305
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp321.icon
+    stampPath: stamp321
+    sound: {fileID: 8300000, guid: d5c6c4a76e6eb4d66abae088e749c109, type: 3}
+  - iconPath: stamp322.icon
+    stampPath: stamp322
+    sound: {fileID: 8300000, guid: d5c6c4a76e6eb4d66abae088e749c109, type: 3}
+  - iconPath: stamp323.icon
+    stampPath: stamp323
+    sound: {fileID: 8300000, guid: d5d2bac45de564188a269acf000bf4e2, type: 3}
+  - iconPath: stamp324.icon
+    stampPath: stamp324
+    sound: {fileID: 8300000, guid: d5d2bac45de564188a269acf000bf4e2, type: 3}
+  - iconPath: stamp325.icon
+    stampPath: stamp325
+    sound: {fileID: 8300000, guid: d5c6c4a76e6eb4d66abae088e749c109, type: 3}
+  - iconPath: stamp351.icon
+    stampPath: stamp351
+    sound: {fileID: 8300000, guid: 04a184d6659e04e25827e78c32561541, type: 3}
+  - iconPath: stamp352.icon
+    stampPath: stamp352
+    sound: {fileID: 8300000, guid: 04a184d6659e04e25827e78c32561541, type: 3}
+  - iconPath: stamp353.icon
+    stampPath: stamp353
+    sound: {fileID: 8300000, guid: 04a184d6659e04e25827e78c32561541, type: 3}
+  - iconPath: stamp354.icon
+    stampPath: stamp354
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp381.icon
+    stampPath: stamp381
+    sound: {fileID: 8300000, guid: e4a7e94b37c954182b529fcf9bea70dd, type: 3}
+  - iconPath: stamp382.icon
+    stampPath: stamp382
+    sound: {fileID: 8300000, guid: e4a7e94b37c954182b529fcf9bea70dd, type: 3}
+  - iconPath: stamp383.icon
+    stampPath: stamp383
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp384.icon
+    stampPath: stamp384
+    sound: {fileID: 8300000, guid: e4a7e94b37c954182b529fcf9bea70dd, type: 3}
+  - iconPath: stamp385.icon
+    stampPath: stamp385
+    sound: {fileID: 8300000, guid: e4a7e94b37c954182b529fcf9bea70dd, type: 3}
+  - iconPath: stamp401.icon
+    stampPath: stamp401
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp402.icon
+    stampPath: stamp402
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp403.icon
+    stampPath: stamp403
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp404.icon
+    stampPath: stamp404
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp408.icon
+    stampPath: stamp408
+    sound: {fileID: 8300000, guid: 5e9ab67cf4c5a438b91899032fa88950, type: 3}
+  - iconPath: stamp409.icon
+    stampPath: stamp409
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp425.icon
+    stampPath: stamp425
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp426.icon
+    stampPath: stamp426
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp427.icon
+    stampPath: stamp427
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp428.icon
+    stampPath: stamp428
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp429.icon
+    stampPath: stamp429
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp430.icon
+    stampPath: stamp430
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp431.icon
+    stampPath: stamp431
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp440.icon
+    stampPath: stamp440
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp441.icon
+    stampPath: stamp441
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp442.icon
+    stampPath: stamp442
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp443.icon
+    stampPath: stamp443
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp444.icon
+    stampPath: stamp444
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp445.icon
+    stampPath: stamp445
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp446.icon
+    stampPath: stamp446
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp447.icon
+    stampPath: stamp447
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp461.icon
+    stampPath: stamp461
+    sound: {fileID: 8300000, guid: ef994528511e64f74af17b1750d1397b, type: 3}
+  - iconPath: stamp462.icon
+    stampPath: stamp462
+    sound: {fileID: 8300000, guid: 6c43f9032541444d5976f891240399e7, type: 3}
+  - iconPath: stamp463.icon
+    stampPath: stamp463
+    sound: {fileID: 8300000, guid: ba426ee80d9f74bb3a75b29b58b4d85d, type: 3}
+  - iconPath: stamp464.icon
+    stampPath: stamp464
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp465.icon
+    stampPath: stamp465
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp466.icon
+    stampPath: stamp466
+    sound: {fileID: 8300000, guid: ba426ee80d9f74bb3a75b29b58b4d85d, type: 3}
+  - iconPath: stamp481.icon
+    stampPath: stamp481
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp482.icon
+    stampPath: stamp482
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp483.icon
+    stampPath: stamp483
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp484.icon
+    stampPath: stamp484
+    sound: {fileID: 8300000, guid: ceabfe52f992b449485f030af3113ff1, type: 3}
+  - iconPath: stamp485.icon
+    stampPath: stamp485
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp486.icon
+    stampPath: stamp486
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp501.icon
+    stampPath: stamp501
+    sound: {fileID: 8300000, guid: f00b0c7ce1dee47189c32bc3a25034e9, type: 3}
+  - iconPath: stamp531.icon
+    stampPath: stamp531
+    sound: {fileID: 8300000, guid: 98bdd267fad7b4eb4b1d664c6e6894b4, type: 3}
+  - iconPath: stamp532.icon
+    stampPath: stamp532
+    sound: {fileID: 8300000, guid: b2b48c7d029e8445ea5192a8b91f306e, type: 3}
+  - iconPath: stamp533.icon
+    stampPath: stamp533
+    sound: {fileID: 8300000, guid: a41362a5ed8054ca2acc2be487d20c8c, type: 3}
+  - iconPath: stamp534.icon
+    stampPath: stamp534
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp551.icon
+    stampPath: stamp551
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}
+  - iconPath: stamp552.icon
+    stampPath: stamp552
+    sound: {fileID: 8300000, guid: bd0a7372cdb30432f8eccef70394d9b8, type: 3}

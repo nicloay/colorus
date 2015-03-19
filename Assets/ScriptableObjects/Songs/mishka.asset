@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41231f0aff2a545a08e84bfa64fc6fc3, type: 3}
+  m_Name: mishka
+  m_EditorClassIdentifier: 
+  nameKey: mishka
+  textData:
+    text:
+    - language: 1
+      text: "\u041C\u0438\u0448\u043A\u0430 \u041A\u043E\u0441\u043E\u043B\u0430\u043F\u044B\u0439
+        \u043F\u043E \u041B\u0435\u0441\u0443 \u0418\u0434\u0435\u0442"
+  persistentBorderLayerPath: mishka.border
+  persistentFrontOutlinePath: mishka.outline

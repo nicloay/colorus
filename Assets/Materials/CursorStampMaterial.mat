@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CursorStampMaterial
+  m_Shader: {fileID: 4800000, guid: 94e71b2f8a53c4a6ea7ff51ab416062c, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 638040f6dff274f4aa9f8944040165e8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .10705018, g: .808823526, b: .217703313, a: 1}
+      data:
+        first:
+          name: _SeconColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SecondColor
+        second: {r: .91911763, g: .283845156, b: .283845156, a: 1}
