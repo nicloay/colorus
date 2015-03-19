@@ -25,6 +25,8 @@ Following packages created by me and also available on asset store, so if you ar
 
 
 # Project details
+Project has been made on 4th version of unity, and started well today on 4.6.
+
 * Main scene located at *Assets/main* path
 * All Configs stored under *Assets/ScriptableObjects*
 * To create new configs use TopBar menu *Razukrashka* 
