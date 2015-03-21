@@ -17,7 +17,7 @@ Following packages which used are 3d party software and belongs to their creator
 * CorinaBlackC font
 
 
-I've used screenshot manager in the game, but main plugins packages are excluded, you can replace this functionality or buy it [here](http://u3d.as/4pz)
+I've used screenshot manager in the game, but main plugins packages are excluded, you can replace this functionality or buy it [here](http://u3d.as/4pz), or [this is a good candidate](https://bitbucket.org/Unity-Technologies/iosnativecodesamples/src/a0bc90e7d6358e456caf25d717134864218740a7/Graphics/AsyncScreenshot/?at=stable) for ios plugin replacements
 
 
 Following packages created by me and also available on asset store, so if you are going to reuse them, would be goot if you purchase them as well =)
