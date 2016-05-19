@@ -1,4 +1,22 @@
-# colorus
+# Paintcraft info
+
+Hello and welcome everyone interested in this project. 
+
+I just want to let you know that some time ago I started work [on one more coloring book](https://appshowcase.intel.com/en-us/allinone/paintcraft) and after that I decided to make a unity package. It works very smooth and fast on every kind of device you can check it right now in your borwser. I hope soon it would be available on asset store. Right now you can check following links:
+
+* [Webgl Live version](http://paintcraft.in/live/)
+* [getting started guide](http://paintcraft.in/start/1/)
+
+and here is a screenshot of how brush are configured there. you have a full control of every point and you can make any kind of effects. 
+![brush config](http://paintcraft.in/images/quickstart/eraser_setup_example.png)
+
+It support multitouch and you can make application for several players and let them draw in the split screen mode on the same or personal canvases
+
+If you have any questions, you can ask them in the [Unity3D Forum](http://forum.unity3d.com/threads/paintcraft-drawing-app-constructor.404998/) or drop me e-mail.
+
+thanks.
+
+# Colorus - free (Unity 4.x)
 Unity3d ColoringBook web/ios
 ![Unity3d ColoringBook open source web/ios](http://storage1.static.itmages.ru/i/15/0320/h_1426869016_4374536_ce5f904828.jpg)
 
@@ -38,3 +56,4 @@ Project has been made on 4th version of unity, and started well today on 4.6.
 I hope you will find something useful for you in this project, like localisation package, floodfill algorithm, floodfill animation. After couple of coloring book projects for another companies, requirements grew constantly, and after latest project, I see huge gap between what i did on colorus and what i've done for big company. drawing solution on colorus is not ideal but not so bad =). 
 
 Good luck for your coloring books, and many interesting kids software for all of us =) !!!
+
