@@ -1,14 +1,17 @@
-# Paintcraft info
+# Paintcraft (paid package info)
 
 Hello and welcome everyone interested in this project. 
 
-I just want to let you know that some time ago I started work [on one more coloring book](https://appshowcase.intel.com/en-us/allinone/paintcraft) and after that I decided to make a unity package. It works very smooth and fast on every kind of device you can check it right now in your borwser. I hope soon it would be available on asset store. Right now you can check following links:
+I just want to let you know that some time ago I started work [on one more coloring book](https://appshowcase.intel.com/en-us/allinone/paintcraft) and after that I decided to make a unity package. It works very smooth and fast on every kind of device you can check it right now in your borwser. Please check following links:
 
 * [Webgl Live version](http://paintcraft.in/live/)
 * [getting started guide](http://paintcraft.in/start/1/)
+* [AssetStore](http://u3d.as/tJ4)
 
 and here is a screenshot of how brush are configured there. you have a full control of every point and you can make any kind of effects. 
-![brush config](http://paintcraft.in/images/quickstart/eraser_setup_example.png)
+![Customized Brush Pipeline](https://d2ujflorbtfzji.cloudfront.net/package-screenshot/c060acf7-9fbc-479b-b5d6-37ed23fc3dbb_scaled.jpg)
+
+![Complete project inside](https://d2ujflorbtfzji.cloudfront.net/package-screenshot/13da4cde-216b-499b-8741-4af912667bbb_scaled.jpg)
 
 It support multitouch and you can make application for several players and let them draw in the split screen mode on the same or personal canvases
 
