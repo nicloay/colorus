@@ -9,11 +9,15 @@ I just want to let you know that some time ago I started work [on one more color
 * [AssetStore](http://u3d.as/tJ4)
 
 and here is a screenshot of how brush are configured there. you have a full control of every point and you can make any kind of effects. 
+
 ![Customized Brush Pipeline](https://d2ujflorbtfzji.cloudfront.net/package-screenshot/c060acf7-9fbc-479b-b5d6-37ed23fc3dbb_scaled.jpg)
 
 ![Complete project inside](https://d2ujflorbtfzji.cloudfront.net/package-screenshot/13da4cde-216b-499b-8741-4af912667bbb_scaled.jpg)
 
 It support multitouch and you can make application for several players and let them draw in the split screen mode on the same or personal canvases
+
+Basic Video Tutorial:  [Paintcraft: how to create drawing app from scratch in 10 minutes](https://www.youtube.com/watch?v=xnfhC8lZ6cc)
+
 
 If you have any questions, you can ask them in the [Unity3D Forum](http://forum.unity3d.com/threads/paintcraft-drawing-app-constructor.404998/) or drop me e-mail.
 
