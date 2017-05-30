@@ -52,11 +52,13 @@ public class ScreenSizeController : MonoBehaviour {
 	void scaleScreenAndSendEvent () {
 		Debug2.LogDebug("scaleScreenAndSendEvent ");
 		float ratio;
-		Resolution maxRes= Screen.resolutions[Screen.resolutions.Length-1];
-		if (Screen.fullScreen)
+		Resolution maxRes = new Resolution();
+		if (Screen.fullScreen) {
+			maxRes = Screen.resolutions [Screen.resolutions.Length - 1];
 			ratio = (float)maxRes.width / (float)maxRes.height;
-		else
+		} else
 			ratio = (float)Screen.width / (float)Screen.height;
+
 		float normalRatio = PropertiesSingleton.instance.screen.normalAspect;
 		IntVector2 newResolution;
 		if (ratio < normalRatio){
