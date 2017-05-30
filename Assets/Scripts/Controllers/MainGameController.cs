@@ -8,20 +8,7 @@ public delegate IEnumerator CoroutineMethod();
 
 public class MainGameController : MonoBehaviour {
 	
-	ControllerInterface[] controllers = new ControllerInterface[]{						
-		new ActiveColorButtonController(),
-		new ActiveToolController(),
-		new UndoRedoController(),
-		new ToolButtonsController(),	
-		new MainColorSelectController(),
-		new WindowPictureController(),
-		new WindowInfoController(),			
-		new WindowColorPickerController(),
-		new WindowStampController(),
-		new WindowSoundController(),
-		new LanguageController(),
-		new SnowThemeController()
-	};	
+	ControllerInterface[] controllers;
 
 	ControllerUpdateInterface[] updateControllers = new ControllerUpdateInterface[]{
 		new WrongActionController()
@@ -47,6 +34,20 @@ public class MainGameController : MonoBehaviour {
 	}
 	
 	void initControllers(){		
+		controllers = new ControllerInterface[]{						
+			new ActiveColorButtonController(),
+			new ActiveToolController(),
+			new UndoRedoController(),
+			new ToolButtonsController(),	
+			new MainColorSelectController(),
+			new WindowPictureController(),
+			new WindowInfoController(),			
+			new WindowColorPickerController(),
+			new WindowStampController(),
+			new WindowSoundController(),
+			new LanguageController(),
+			new SnowThemeController()
+		};	
 		for (int i=0; i< controllers.Length;i++){
 			controllers[i].init();
 		}
